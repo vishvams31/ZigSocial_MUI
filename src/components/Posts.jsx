@@ -13,11 +13,11 @@ import {
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import ShareIcon from "@mui/icons-material/Share";
-import { IMAGE_PATH } from "../constans";
+import { IMAGE_PATH } from "../constants/constans";
 export default function Posts() {
   return (
     <>
-      <Card sx={{ margin: 5, boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)" }}>
+      <Card sx={{ margin: 5 }} elevation={16}>
         <CardHeader
           avatar={
             <Avatar

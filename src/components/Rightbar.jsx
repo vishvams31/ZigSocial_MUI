@@ -2,16 +2,18 @@ import {
   Avatar,
   AvatarGroup,
   Box,
+  Card,
   ImageList,
   ImageListItem,
   List,
   ListItem,
   ListItemAvatar,
   ListItemText,
+  Paper,
   Typography,
 } from "@mui/material";
 import React from "react";
-import { IMAGE_PATH } from "../constans";
+import { IMAGE_PATH } from "../constants/constans";
 
 const Rightbar = () => {
   return (
@@ -51,6 +53,15 @@ const Rightbar = () => {
             />
           </ImageListItem>
         </ImageList>
+        {/* <Paper
+          sx={{
+            height: "100%",
+            padding: "10px 10px",
+            paddingLeft: "20px",
+            marginTop: "20px",
+          }}
+          elevation={16}
+        > */}
         <Typography variant="h5" fontWeight={100} mt={2}>
           Latest Conversations
         </Typography>
@@ -163,6 +174,7 @@ const Rightbar = () => {
             />
           </ListItem>
         </List>
+        {/* </Paper> */}
       </Box>
     </Box>
   );

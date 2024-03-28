@@ -19,7 +19,7 @@ import ImageIcon from "@mui/icons-material/Image";
 import VideocamIcon from "@mui/icons-material/Videocam";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import DateRangeIcon from "@mui/icons-material/DateRange";
-import { IMAGE_PATH } from "../constans";
+import { IMAGE_PATH } from "../constants/constans";
 const SyledModal = styled(Modal)({
   display: "flex",
   justifyContent: "center",
@@ -40,7 +40,7 @@ const Add = () => {
     <>
       <Tooltip
         onClick={(e) => setOpen(true)}
-        title="add"
+        title="Add post"
         sx={{
           position: "fixed",
           bottom: 20,
